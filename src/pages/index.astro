@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero';
+import ContactForm from '../components/ContactForm';
+---
+
+<Layout title="Santa's Workshop">
+  <main>
+    <Hero client:load />
+    <ContactForm client:load />
+  </main>
+</Layout>
